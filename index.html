@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="download.png">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="one">
+        <div class="info">
+          <div class="heading">
+            <img src="IMG_20211224_205525_879.jpg" alt="" />
+            <h2
+              style="
+                color: white;
+                position: relative;
+                left: 6rem;
+                bottom: 5.5rem;
+              "
+            >
+              Bhargav Garge
+            </h2>
+            <h3
+              style="
+                color: #4f5c69;
+                position: relative;
+                left: 6rem;
+                bottom: 6.5rem;
+              "
+            >
+              @___bhargav___
+            </h3>
+          </div>
+          <div class="content">
+            <p style="color: white">
+              "In some ways, programming is like painting. You start with a
+              blank canvas and certain basic raw materials. You use a
+              combination of science, art, and craft to determine what to do
+              with them." - Andrew Hunt
+            </p>
+          </div>
+        </div>
+        <div class="kebab">
+          <div class="drop1">
+          <button class="fun-items " onclick="mFunction()">
+            <i class="fas fa-ellipsis-h item-5"></i>
+          </button>
+          <div id="mainDrop1" class="contentofDrop1">
+            <i class="far fa-user contenticon1" style="color: #4f5c69;"></i> <a href="#">Follow @___bhargav__</a>
+            <i class="fas fa-clipboard-list contenticon1 "style="color: #4f5c69;"></i><a href="#">Add/remove @___bhargav__ from list</a>
+            <i class="fas fa-volume-mute contenticon1" style="color: #4f5c69;"></i><a href="#">Mute @___bhargav__ </a>
+            <i class="fas fa-volume-mute contenticon1"style="color: #4f5c69;"></i><a href="#">Block @___bhargav__</a>
+            <i class="fas fa-code contenticon1"style="color: #4f5c69;"></i><a href="#">Embed Tweet</a>
+            <i class="far fa-flag contenticon1"style="color: #4f5c69;"></i><a href="#">Report Tweet</a>
+            <i class="fas fa-clipboard-list contenticon1"style="color: #4f5c69;"></i><a href="#">View hidden replies</a>
+           </div>
+          </div>
+        </div>
+
+        <div class="fun">
+          <ul>
+            <li>
+              <button class="fun-items">
+                <i class="far fa-comment item-1"></i>
+              </button>
+            </li>
+            <li>
+              <button class="fun-items cr">
+                <i class="fas fa-retweet item-2"></i>
+                <span
+                  class="retweet"
+                  style="
+                    color: #4f5c69;
+                    font-size: 1rem;
+                    margin-left: 2rem;
+                    cursor: pointer;
+                  "
+                  >0</span
+                >
+              </button>
+            </li>
+            <li>
+              <button class="fun-items ch">
+                <i class="far fa-heart item-3"></i>
+                <span
+                  class="heart"
+                  style="
+                    color: #4f5c69;
+                    font-size: 1rem;
+                    margin-left: 2rem;
+                    cursor: pointer;
+                  "
+                  >0</span
+                >
+              </button>
+            </li>
+            <li>
+              <div class="drop2">
+              <button class="fun-items dropbtn " onclick="myFunction()">
+                <i class="far fa-share-square item-4"></i>
+              </button>
+              <div id="mainDrop2" class="contentofDrop2">
+                <i class="far fa-envelope contenticon2"></i><a href="#">Send Via Message</a>
+                <i class="far fa-bookmark contenticon2"></i><a href="#">Bookmark</a>
+                <i class="fas fa-paperclip contenticon2"></i><a href="#">Copy link to Tweet</a>
+                <i class="far fa-share-square contenticon2"></i><a href="#">Share Tweet via...</a>
+                </div>
+                </div>
+
+
+              
+              </div>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

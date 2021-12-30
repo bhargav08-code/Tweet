@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #1c2732;
+  font-family: "Ubuntu", sans-serif;
+}
+.one {
+  height: 20rem;
+  width: 33.5rem;
+  background-color: #1c2732;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #4f5c69 2px solid;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  align-items: center;
+  margin: 5rem;
+  padding: 0px;
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 35rem;
+}
+.fun-items {
+  background-color: transparent;
+  border: none;
+}
+ul li i {
+  color: #4f5c69;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.fun {
+  margin-top: 10rem;
+}
+.item-1:hover {
+  color: #1d9bf0;
+}
+.item-2:hover {
+  color: #00ba7c;
+}
+.item-3:hover {
+  color: #e01977;
+}
+.item-4:hover {
+  color: #1d9bf0;
+}
+.item-5:hover {
+  color: #1d9bf0;
+}
+.item-5 {
+  font-size: 1.5rem;
+  color: #4f5c69;
+  position: absolute;
+  left: 30rem;
+}
+
+.kebab {
+  position: sticky;
+  bottom: 21rem !important;
+}
+
+img {
+  border-radius: 50%;
+  height: 4.9rem;
+  width: 4.9rem;
+}
+.heading {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+h2,
+h3,
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+.content p {
+  font-size: 18px;
+  line-height: 22px;
+}
+.content {
+  position: relative;
+  bottom: 5rem;
+  left: 1rem;
+}
+.drop2 {
+  position: relative;
+  display: inline-block;
+}
+.contentofDrop2 {
+  display: none;
+  position: absolute;
+  background-color: #080808;
+
+  width: 200px;
+  height: 14rem;
+  z-index: 1;
+  box-shadow: 1px 0px 19px 0px #333333;
+  -webkit-box-shadow: 1px 0px 19px 0px #333333;
+  -moz-box-shadow: 1px 0px 19px 0px #333333;
+}
+.contentofDrop2 a {
+  color: white;
+  padding: 10px 16px;
+  margin-left: 2rem;
+  position: relative;
+  bottom: 2rem;
+  text-decoration: none;
+  display: block;
+}
+.hidden {
+  display: block;
+}
+.contenticon2 {
+  margin-left: 1rem;
+}
+.drop1 {
+  position: relative;
+  display: inline-block;
+}
+.contentofDrop1 {
+  display: none;
+  position: absolute;
+  background-color: #080808;
+  margin-left: 7rem;
+  margin-top: 0rem;
+  width: 350px;
+  height: 26rem;
+  z-index: 1;
+  box-shadow: 1px 0px 19px 0px #333333;
+  -webkit-box-shadow: 1px 0px 19px 0px #333333;
+  -moz-box-shadow: 1px 0px 19px 0px #333333;
+}
+.contentofDrop1 a {
+  color: white;
+  padding: 10px 16px;
+  margin-left: 2.5rem;
+  position: relative;
+  bottom: 14px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.hidden {
+  display: block;
+}
+.contenticon1 {
+  font-size: 22px;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+}
